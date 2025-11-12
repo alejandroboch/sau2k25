@@ -45,4 +45,6 @@ ADD estado VARCHAR(1) NOT NULL DEFAULT 'A';
 ALTER TABLE tbl_proyecto_auditado
 ADD estado VARCHAR(1) NOT NULL DEFAULT 'A';
 
+ALTER TABLE tbl_recursos
+MODIFY fecha_registro DATE NOT NULL;
 
